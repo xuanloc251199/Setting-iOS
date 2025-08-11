@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>CFBundleURLName</key>
+			<string>com.example.Preferences</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>pref</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>bluetooth</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Bluetooth</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.example.bluetooth</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>wifi</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Wi-Fi</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.example.wifi</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>antenna.radiowaves.left.and.right</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Cellular</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.example.cellular</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>battery.100percent</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Battery</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.example.battery</string>
+		</dict>
+	</array>
+</dict>
+</plist>
